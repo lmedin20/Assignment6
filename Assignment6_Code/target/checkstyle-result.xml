@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="9.3">
+<file name="C:\Users\lmedi\IdeaProjects\Assignment6_Code\src\main\java\org\example\Amazon\Amazon.java">
+</file>
+<file name="C:\Users\lmedi\IdeaProjects\Assignment6_Code\src\main\java\org\example\Amazon\Cost\DeliveryPrice.java">
+</file>
+<file name="C:\Users\lmedi\IdeaProjects\Assignment6_Code\src\main\java\org\example\Amazon\Cost\ExtraCostForElectronics.java">
+</file>
+<file name="C:\Users\lmedi\IdeaProjects\Assignment6_Code\src\main\java\org\example\Amazon\Cost\ItemType.java">
+</file>
+<file name="C:\Users\lmedi\IdeaProjects\Assignment6_Code\src\main\java\org\example\Amazon\Cost\PriceRule.java">
+</file>
+<file name="C:\Users\lmedi\IdeaProjects\Assignment6_Code\src\main\java\org\example\Amazon\Cost\RegularCost.java">
+</file>
+<file name="C:\Users\lmedi\IdeaProjects\Assignment6_Code\src\main\java\org\example\Amazon\Database.java">
+</file>
+<file name="C:\Users\lmedi\IdeaProjects\Assignment6_Code\src\main\java\org\example\Amazon\Item.java">
+</file>
+<file name="C:\Users\lmedi\IdeaProjects\Assignment6_Code\src\main\java\org\example\Amazon\ShoppingCart.java">
+</file>
+<file name="C:\Users\lmedi\IdeaProjects\Assignment6_Code\src\main\java\org\example\Amazon\ShoppingCartAdaptor.java">
+</file>
+<file name="C:\Users\lmedi\IdeaProjects\Assignment6_Code\src\main\java\org\example\Barnes\BarnesAndNoble.java">
+</file>
+<file name="C:\Users\lmedi\IdeaProjects\Assignment6_Code\src\main\java\org\example\Barnes\Book.java">
+</file>
+<file name="C:\Users\lmedi\IdeaProjects\Assignment6_Code\src\main\java\org\example\Barnes\BookDatabase.java">
+</file>
+<file name="C:\Users\lmedi\IdeaProjects\Assignment6_Code\src\main\java\org\example\Barnes\BuyBookProcess.java">
+</file>
+<file name="C:\Users\lmedi\IdeaProjects\Assignment6_Code\src\main\java\org\example\Barnes\PurchaseSummary.java">
+</file>
+</checkstyle>
