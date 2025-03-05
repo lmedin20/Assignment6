@@ -27,7 +27,7 @@ jobs:
         run: mvn site
 
       - name: Upload Checkstyle Report
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4  # Change from v3 to v4
         with:
           name: checkstyle-report
           path: target/site/checkstyle.html
@@ -38,8 +38,8 @@ jobs:
       - name: Generate Jacoco Report
         run: mvn verify
 
-      - name: Upload Jacoco Report
-        uses: actions/upload-artifact@v3
+      - name: Upload JaCoCo Report
+        uses: actions/upload-artifact@v4  # Change from v3 to v4
         with:
           name: jacoco-report
           path: target/site/jacoco
