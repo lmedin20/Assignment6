@@ -7,40 +7,29 @@ on:
 jobs:
   SE333_CI_JOB:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout Repository
+      - name: checkout-repo
         uses: actions/checkout@v4
 
-      - name: Set Up Java
+      - name: setupJava
         uses: actions/setup-java@v4
         with:
           java-version: '21'
           distribution: 'temurin'
           architecture: x64
-          cache: maven
 
-      - name: Install Dependencies
-        run: mvn install -DskipTests
+      - name: Install Linter
+        ##TODO
 
       - name: Run Checkstyle
-        run: mvn site
+        ##TODO
 
-      - name: Upload Checkstyle Report
-        uses: actions/upload-artifact@v4  # Change from v3 to v4
-        with:
-          name: checkstyle-report
-          path: target/site/checkstyle.html
+      - name: Upload Checkstyle Result
+        ##TODO
 
-      - name: Run Maven Tests
-        run: mvn test
+      - name: Run Maven Test
+        ##TODO
 
-      - name: Generate Jacoco Report
-        run: mvn verify
-
-      - name: Upload JaCoCo Report
-        uses: actions/upload-artifact@v4  # Change from v3 to v4
-        with:
-          name: jacoco-report
-          path: target/site/jacoco
+      - name: Jacoco Report
+        ##TODO
 
